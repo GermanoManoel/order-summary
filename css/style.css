@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(224, 23%, 55%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.caixa{
+    text-align: center;
+    background-color: hsl(225, 100%, 98%);
+    max-width: 28.1rem;
+    min-height: 43rem;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.425);
+    z-index: 1;
+}
+
+img.imagem{ 
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+div.info{
+    margin-top:4rem;
+}
+
+div.info > p{
+    margin-top: 1.3em;
+    padding: 0 70px;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+div.dados{
+    margin:1.3rem auto;
+    background-color: hsla(240, 4%, 89%, 0.514);
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    border-radius: 10px;
+}
+
+img.nota{
+    margin: 15px;
+    filter: brightness(3px);
+}
+
+div.dados > p{
+    margin:20px;
+}
+
+p#annual{
+    color: rgba(0, 0, 0, 0.582);
+}
+
+span{
+    font-weight: bold;
+    color: black;
+    
+}
+
+p.change{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-decoration: underline;
+   
+}
+
+a{
+  color:blue;  
+}
+
+button{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    border:none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button.cancelar{
+    background-color: rgb(248, 248, 248);
+    color: black;
+    font-weight: bold;
+    margin-top: 0px;
+
+}
+
+img.fundo{
+  width: 100%;
+}
+
+img.fundo2{
+    width: 100%;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 0;
+}

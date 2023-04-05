@@ -1,0 +1,37 @@
+@media screen and (max-width:1480px){
+    img.fundo{
+        width: 0;
+      }
+      
+      img.fundo2{
+          width: 0;
+         
+      }
+}
+
+@media screen and (max-width:414px){
+    div.caixa{
+        text-align: center;
+        background-color: #D6E1FF;
+        max-width: 28.1rem;
+        min-height: 43rem;
+        border-radius: 20px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%) scale(75%);
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.425);
+        z-index: 1;
+     
+    }
+
+    img.fundo{
+        width: 0%;
+        
+      }
+      
+      img.fundo2{
+          width: 0%;
+          transform: rotate(180deg);
+      }
+}
