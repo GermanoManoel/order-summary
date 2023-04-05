@@ -20,7 +20,7 @@ div.caixa{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) scale(70%);
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.425);
     z-index: 1;
 }
