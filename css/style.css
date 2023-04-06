@@ -7,13 +7,13 @@
 }
 
 body{
-    background-color:hsl(224, 23%, 55%);
+    background-color:hsl(225, 100%, 98%);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 div.caixa{
     text-align: center;
-    background-color: hsl(225, 100%, 98%);
+    background-color: white;
     max-width: 28.1rem;
     min-height: 43rem;
     border-radius: 20px;
